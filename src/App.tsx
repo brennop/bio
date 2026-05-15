@@ -7,7 +7,7 @@ function App() {
   [background-size:theme(spacing.6)_theme(spacing.6)]
   grid place-items-center
   ">
-    <div className="border-rose-300 border h-80 w-80 relative">
+    <div className="h-80 w-80 relative">
       <motion.div
         className="bg-sky-300 p-2 rounded-lg w-max -translate-x-1/2 left-3/4 top-1/5 absolute"
         whileTap={{ scale: 1.1 }}
